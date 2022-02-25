@@ -1,16 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 
 * {
     box-sizing: border-box;
 }
 body {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;  
     height: 100vh;
     overflow: hidden;
     margin: 0;
+}
+
+h3 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+small {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fa-hear {
+    color:red;
 }
